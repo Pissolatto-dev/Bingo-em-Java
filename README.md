@@ -1,6 +1,6 @@
 #  Bingo - JavaFX
 
-Um sistema de sorteio de Bingo completo, desenvolvido em Java moderno, com foco em otimização de algoritmos e estrutura de dados. O projeto apresenta uma interface gráfica fluida em única janela, simulando uma roleta de sorteio e mantendo o histórico em tempo real.
+Um sistema de sorteio de Bingo completo, desenvolvido em Java moderno, com foco em otimização de algoritmos e estrutura de dados. O projeto apresenta uma interface gráfica fluida em única janela, simulando uma roleta de sorteio e mantendo o histórico em tempo real. A seguir uma imagem do programa em execução com algumas partes personalizadas para fins pessoais.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7bdd87e3-e86c-4d30-a1a6-7b6917291cc4" />
 
