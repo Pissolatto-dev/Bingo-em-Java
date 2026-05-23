@@ -78,7 +78,7 @@ public class BingoModernoApp extends Application {
 
         Scene cena = new Scene(raizRaiz, 900, 700);
 
-        // 🌟 CONFIGURAÇÃO DO F11 PARA TELA CHEIA 🌟
+        // Configuração do F11 para tela cheia
         cena.setOnKeyPressed(evento -> {
             if (evento.getCode() == KeyCode.F11) {
                 primaryStage.setFullScreen(!primaryStage.isFullScreen());
@@ -165,12 +165,12 @@ public class BingoModernoApp extends Application {
         camadaJogo.setPadding(new Insets(30));
         camadaJogo.setAlignment(Pos.TOP_CENTER);
 
-        // --- TÍTULO ---
+        // Título
         Label lblTitulo = new Label(NOME_DO_JOGO);
         lblTitulo.setFont(Font.font("Segoe UI", FontWeight.BOLD, 22));
         lblTitulo.setTextFill(Color.web(COR_TEXTO_TITULO));
 
-        // --- ÁREA DA ROLETA ---
+        // Área da roleta
         VBox containerRoleta = new VBox(5);
         containerRoleta.setAlignment(Pos.CENTER);
         containerRoleta.setPrefSize(350, 250);
@@ -186,7 +186,7 @@ public class BingoModernoApp extends Application {
 
         containerRoleta.getChildren().addAll(lblNumeroAtual, lblSub);
 
-        // --- HISTÓRICO ---
+        // Histórico-
         Label lblHistTitulo = new Label(TITULO_HISTORICO);
         lblHistTitulo.setFont(Font.font("Segoe UI", FontWeight.SEMI_BOLD, 16));
         lblHistTitulo.setTextFill(Color.web(COR_TEXTO_COMUM));
@@ -204,7 +204,7 @@ public class BingoModernoApp extends Application {
         scrollPane.setStyle("-fx-background: " + COR_FUNDO_PANEIS + "; -fx-border-color: " + COR_BORDAS + "; -fx-border-radius: 10; -fx-background-radius: 10;");
         VBox.setVgrow(scrollPane, Priority.ALWAYS); // Faz o histórico crescer para preencher a tela
 
-        // --- BOTÕES DE AÇÃO ---
+        // Botões de ação
         HBox containerBotoes = new HBox(30);
         containerBotoes.setAlignment(Pos.CENTER);
 
