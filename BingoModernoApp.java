@@ -186,7 +186,7 @@ public class BingoModernoApp extends Application {
 
         containerRoleta.getChildren().addAll(lblNumeroAtual, lblSub);
 
-        // Histórico-
+        // Histórico
         Label lblHistTitulo = new Label(TITULO_HISTORICO);
         lblHistTitulo.setFont(Font.font("Segoe UI", FontWeight.SEMI_BOLD, 16));
         lblHistTitulo.setTextFill(Color.web(COR_TEXTO_COMUM));
